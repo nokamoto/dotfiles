@@ -9,7 +9,7 @@ GCLOUD_SDK_TAR="google-cloud-cli-435.0.1-linux-x86_64.tar.gz"
 curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/${GCLOUD_SDK_TAR}
 tar -xf ${GCLOUD_SDK_TAR}
 
-./google-cloud-sdk/install.sh -q --bash-completion=true --path-update=true --rc-path=~/.bashrc
+./google-cloud-sdk/install.sh -q --path-update true --bash-completion true
 
 rm -rf ${GCLOUD_SDK_TAR}
 
